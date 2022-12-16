@@ -43,8 +43,7 @@ html {
   align-items: center;
   justify-content: center;
 
-  border: 1px solid var(--purple);
-  border-radius: 50%;
+  
 }
 
 .tree-container .avatar img {
@@ -105,3 +104,11 @@ html {
 .socials-container .social:hover {
   transform: scale(1);
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg-color: #faf7fd;
+    --purple: #bb99dd;
+  }
+}
+
